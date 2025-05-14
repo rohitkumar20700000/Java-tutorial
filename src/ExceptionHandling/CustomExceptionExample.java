@@ -2,9 +2,9 @@ package ExceptionHandling;
 
 public class CustomExceptionExample extends Exception {
 
-    private static int accno[] = {1001, 1002, 1003, 1004, 1005};
-    private static String name[] = {"Nish", "Prasun", "Sam", "Buddha","Sidhu"};
-    private static double bal[] = {10000.00, 12000.00, 999.00, 678997.00,134000.00};
+    private static int accno[] = {1001, 1002, 1003, 1004};
+    private static String name[] = {"Nish", "Prasun", "Sam", "Buddha"};
+    private static double bal[] = {10000.00, 12000.00, 999.00, 678997.00};
 
     public CustomExceptionExample() {
         // TODO Auto-generated method stub
