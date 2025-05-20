@@ -16,7 +16,7 @@ public class FactorialOfNumbers {
         }
         System.out.println("factorial is " + fac);
     }
-//    recursive factorial
+//    recursive factorial-Non-tail
     public static int getrecFactorial(int n) {
         // base case
         if (n == 1) {
@@ -24,16 +24,31 @@ public class FactorialOfNumbers {
         }
         // recursive case
         else {
+//        	another implementation n*recursive so non-tail
             return n * getrecFactorial(n - 1); // e.g., 5 * getFactorial(4)
         }
     }
+//    tail recursion
+    public static void displayNums(int n) {
+        if (n == 1) {
+            System.out.println(n);
+        } else {
+            System.out.println(n);
+            displayNums(n - 1);
+        }
+    }
 
+    
 }
 
 //Recursive Functions
 //
-//A recursive function is a function that calls itself directly or indirectly to solve a problem by breaking it down into smaller instances of the same problem. 
-//This technique is commonly used in programming to solve problems that can be divided into simpler, similar subproblems.
+////A recursive function is a function that calls itself directly or indirectly to solve a problem by breaking it down into smaller instances of the same problem. 
+////This technique is commonly used in programming to solve problems that can be divided into simpler, similar subproblems.
+//
+//Types of recursive function:
+//	1.tail-recursive call is the last statement to be executed
+//	2.non-tail-there are more implementations /statements to be executed after recursive call
 //
 //Key Principles
 //
