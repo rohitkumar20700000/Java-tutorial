@@ -23,6 +23,17 @@ public class Encapsulation {
 //'this' cannot used in static method or static block
 
 
+//encapsulation:
+//	bind the method and data
+
+//how encapsulation is implemented :
+//	implemeneting the data or member variable in private access modifier .
+//getter and setter method is used to provide the functionality and implementation of method is written from the user
+
+//get->fetch or aceess the data
+//set->modify the data
+
+
 //hw
 //1.write a program to create class bank account with private instance variable ,acc number and balance.
 //provide public setter and gett0+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++er to access and modify these variables.

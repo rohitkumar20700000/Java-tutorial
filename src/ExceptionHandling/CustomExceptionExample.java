@@ -20,7 +20,8 @@ public class CustomExceptionExample extends Exception {
             for (int i = 0; i < 6; i++) {
                 System.out.println(accno[i] + "\t" + name[i] + "\t" + bal[i]);
                 if (bal[i] < 1000) {
-                    CustomExceptionExample me = new CustomExceptionExample("Balance is less than 1000");
+                    CustomExceptionExample me = new CustomExceptionExample("Balance"
+                    		+ " is less than 1000");
                     throw me;
                 }
             }

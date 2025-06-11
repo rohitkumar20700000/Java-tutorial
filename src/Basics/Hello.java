@@ -14,9 +14,30 @@ public class Hello implements a{
 	}
 
 }
+
+//features of java:
+//	1.WORA (Write Once run anywhere)---Highly portable &widely adopted(memory &size)
+//	2.PLATFORM INDEPENDENT --------Works in all OS(MAC,WINDOWS,LINUX)
+//	3.ROBUSTNES-------Garbage collection,exception handling,security for building reliable application
+//	4.Securiy----Strong Security includes Encryption access control etc..
+//    5.MULTITHREADING---Allow multiple task concurrently.......
+
+//JAVA Feature............
+//  1.STREAM API(for bulk data mapping,filtering)
+//  2.LAMDA EXPRESSION(method based or data based result)
+//  3.Functional Interface
+
+//JDK(Java Development Kit):
+//	Includes JRE,Other tools,Libraries
+//	Provides environment
+//JRE(Java Runtime Environment):
+//	it is used for running java application based on provided libraries and jvm	
+//JVM--JAVA VIRTUAL MACHINE----EXECUTES JAVA BYTE CODE
+//JIT(Just In Time)---Convert Byte Code into Machine Code at run time
+
+
+
 //oops are fundamental principle that organize software design around object, which combine data and behaviour.
-
-
 ////class serves a blueprint for creating a object, it defines the structure and functionality that object of class will process
 //class logical entity
 //eg:dog is a class that define name, read and age.And action(method):bark,eat etc
