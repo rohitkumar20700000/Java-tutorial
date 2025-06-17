@@ -1,4 +1,5 @@
 package Opps;
+//single-inheritance
 class Animalnew{
 	String name;
 	public void eat() {
@@ -24,16 +25,16 @@ public class inheritance {
 }
 
 //Inheritance:
-//   Allows new class to inherit properties, behaviors (filed, method) from existing class
-//is a relatonship
+//   Allows new class to inherit properties, behaviors (fields, method) from existing class
+//relationship of inheritance----->IS-a relatonship
 //is a relationship between two classes
 //eg:car is vechicle
 
 //types:
 //	single
-//	multi level
+//	multi-level
 //	heirarchical
-//	hybrid														
+//  Interface inheritance														
 
 //class from which sub class is derived from is called super class or base class or parent class
 
@@ -46,6 +47,7 @@ public class inheritance {
 //                                      |
 //                                      |
 //                                      |inherits
+//                                      |
 //                                      |
 //                                      |
 //                                   child class

@@ -45,3 +45,5 @@ public class HeirarchicalInheritence {
 	}
 
 }
+//one or more classes inherits the same class is called heirarchical call
+//In above example,it not necessary that A should be a parent
