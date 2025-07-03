@@ -13,4 +13,4 @@ abstract class Abstraction {
 	}
 
 }
-//Abstraction can be archive , by using abstract class or interface
+//Abstraction can be archive , by using abstract class(80%) or interface(100%)

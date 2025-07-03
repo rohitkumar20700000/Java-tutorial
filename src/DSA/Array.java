@@ -22,7 +22,9 @@ public class Array {
 
 }
 
-//Array is a data structure, allows us to store multiple values of same data types in a single variable
+//Array is a data structure, allows us to store multiple values of same data types in a single variable instead of declaring 
+//separate variable for each value
+
 //Key Features of array: 
 //1.continues memory allocation which means elements are placed next to each other in a memory
 //2.zero - based indexing

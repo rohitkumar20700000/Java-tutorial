@@ -48,6 +48,7 @@ public class HashSetAllTypes {
 
 
 //Set is interface represent a collection of Unique elements
+//can store null implementation
 //It doesn't define any specific order
 //Implementation of set:HashSet
 //It doesn't guarantee any specific order of iteration
